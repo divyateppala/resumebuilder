@@ -1,0 +1,183 @@
+<html>
+<head>
+<title>RESUME BUILDER</title>
+<link rel="icon" href="images/img.png">
+<meta name= "viewport" content="width=device-width,initial-scale=1.0">
+<link rel='stylesheet' href="css/styles.css"/>
+
+</head>
+<body>
+<div class="col-1">
+	<!--div class="col-3"> &nbsp; </div>
+    <div class="col-2"-->
+     <div class="header fheader">
+	<img src="images/download.jpg" style="width:100px; height:100px">
+	<div><a href=index.html>Home</a></div>
+	<div>ResumeBuilder</div>
+	<div>Jobs</div>
+	<div>Login/Signup</div>
+	<div><input type="text" placeholder="search.." style="height:auto;border-radius:50px"></div>
+    <!--/div-->
+</div>
+</div>
+<div class="col-4 " id="demo"> <img src="images/diva.jpg" alt="Divya" style="width:100%;border-radius: 5px 5px 5px 5px;padding:40px 0px 0px 0px;">
+                    <h3>Divya Teppala</h3>
+                    <!--p style="color: grey; font-size: 14px;">Trainer </p>
+                    <p>APSSDC</p-->
+                    <script>
+
+                        /* Profile Data */
+                    var divya = {
+                        "role" : "Trainer & Developer",
+                        "organisation":"APSSDC",
+                        "email":"divya.t@apssdc.in",
+                        "location" : "Visakhapatnam, Andhra Pradesh",
+                        "mobile":"(+91) 8790056707",
+                    };
+
+
+
+                    /* Qualifications */
+                    var ed={
+                    "degree" : ["M.Tech(C.S.E)","B-Tech(I.T)","Inter","SSC"],
+                    "NameofColl" : ["GVP College Of Engineering","JNTUK College of Engeineering", "Sri Chaitanya Jr College","S.F.S School"],
+                    "location" : ["Visakhapatnam,Andhra Pradesh","Vizianagram, Andhra Pradesh","Visakhapatnam, Andhra Pradesh","Visakhapatnam, Andhra Pradesh"]
+                    }
+
+                    for (x in divya) {
+                        document.getElementById("demo").innerHTML += "<p style='color: grey; font-size: 14px;'>" +divya[x]+"<p>";
+                    }
+                    </script>
+ </div>
+    <div class="col-2">
+    	<div class="fcontent">
+
+
+<style>
+.flex{
+    width:100%;
+    justify-content:center;
+    /*border:2px solid black;*/
+    box-shadow:0px 4px 4px 4px #ddd;
+    }
+    .p{
+        width:50%;
+
+    }
+table,th,td{
+    border:1px solid;
+}
+</style>
+<div class="flex">
+<h1><center>CURRICULUM VITAE</center></h1>
+<div class="p">
+<p>Name:Divya Teppala</p>
+<p>Email:kdivyajntu@gmail.com</p>
+<p>Ph.no:8790056707</p></div>
+<h3 style="box-shadow:3px 3px 3px #ddd; margin-left: 0.1%;background-color: #ddd"">Career Objectives:</h3>
+<p>  To be associated with a progressive organization that provides an opportunity to apply
+ my knowledge and skills in order to keep abreast with latest trends and technologies.
+
+</p>
+<h3 style="box-shadow:3px 3px 3px #ddd; margin-left: 0.1%;background-color: #ddd"">Qualifications </h3>
+<div id="ed">
+    <script>
+        for(i in ed.degree){
+document.getElementById('ed').innerHTML+="<b>"+ed.degree[i]+"</b><br>";
+document.getElementById('ed').innerHTML+=ed.NameofColl[i]+"<br>";
+document.getElementById('ed').innerHTML+=ed.location[i]+"<br><br>";
+        }
+    </script>
+</div>
+<!--table>
+    <tr>
+        <th>S.NO</th>
+        <th>COLLEGE/UNIVERSITY</th>
+        <th>BOARD</th>
+        <th>PERCENTAGE</th>
+        <th>PASSED OUT</th>
+    </tr>
+    <tr>
+    <td>1</td>
+    <td>GVP COLLEGE OF ENG</td>
+    <td>JNTUK</td>
+    <td>75%</td>
+    <td>2017</td>
+    </tr>
+    <tr>
+    <td>2</td>
+    <td>JNTUV</td>
+    <td>JNTUK</td>
+    <td>66%</td>
+    <td>2011</td>
+    </tr>
+    <tr>
+    <td>3</td>
+    <td>SRI CHAITANYA</td>
+    <td>INTERMEDIATE</td>
+    <td>92%</td>
+    <td>2007</td>
+    </tr>
+    <tr>
+    <td>4</td>
+    <td>S.F.S SCHOOL</td>
+    <td>SSC</td>
+    <td>86%</td>
+    <td>2005</td>
+    </tr>
+</table-->
+<h3 style="box-shadow:3px 3px 3px #ddd; margin-left: 0.1%;background-color: #ddd">Academic And Co-Curricular Activities</h3>
+    <p><ul>
+<li> Participated in various awareness camps and debate competitions.</li></br>
+
+<li>  Acted as an organizer for Fest that was held in my college.</li></br>
+
+<li> Did 8 months internship in ASPIRE.</li></br>
+
+</ul></p>
+<h3 style="box-shadow:3px 3px 3px #ddd; margin-left: 0.1%;background-color: #ddd"">Strengths</h3>
+<p>
+<ul>
+  <li>	Good analytical skills and comprehensive problem solving ability.</li></br>
+  <li>Positive attitude and enthusiastic in teamwork.</li></br>
+  <li>Flexibility to adopt new technologies and zeal to learn new technologies.</li></br>
+
+</ul></p>
+<h3 style="box-shadow:3px 3px 3px #ddd; margin-left: 0.1%;background-color: #ddd"">Area Of Interests:</h3>
+    <p><ul>
+
+  <li>Internet of Things(IOT).</li></br>
+  <li>Big Data.</li></br>
+</ul></p>
+<h3 style="box-shadow:3px 3px 3px #ddd; margin-left: 0.1%;background-color: #ddd"">Personal Details</h3>
+    <ul>
+   Name                 :  T. Divya.</br>
+   Father’s Name        :  K. Avataram</br>
+   Date Of Birth        :  09-01-1990.</br>
+   Languages Known      :  English, Telugu, Hindi.</br>
+   Marital Status       :   Married  </br>
+</ul></p>
+<h3 style="box-shadow:3px 3px 3px #ddd; margin-left: 0.1%;background-color: #ddd"">Declaration</h3>
+<p>I hereby declare that the information furnished above is true to the best of my knowledge.</p>
+<p style="text-align:left;">Date:17/01/2018</p>
+<p style="text-align:left;">Place:Visakhapatnam</p>
+<p style="text-align:right;margin-right:2%">Divya Teppala</p></br>
+
+</div>
+
+    			<div >
+
+
+                </div>
+
+
+    			<div >
+
+                </div>
+
+    		<div></div>
+    		<div></div>
+    	</div>
+    </div>
+</body>
+</html>
