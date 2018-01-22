@@ -90,6 +90,10 @@ table{
         width: 100%;
 
     }
+.fcontent{
+    flex-direction:column;
+    justify-content: center;
+    }
     .fcontent>div{
         justify-content: center;
         margin:2%;
