@@ -92,7 +92,7 @@ table{
     }
    .fcontent{
     flex-direction:column;
-    justify-content: center;
+    
     }
     .fcontent>div{
         justify-content: center;
