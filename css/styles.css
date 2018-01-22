@@ -94,6 +94,9 @@ table{
         justify-content: center;
         margin:2%;
     }
+	li{
+        font-size: 20px;
+    }
     table{
         width:90%;
         height:auto;
