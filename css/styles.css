@@ -90,7 +90,7 @@ table{
         width: 100%;
 
     }
-.fcontent{
+   .fcontent{
     flex-direction:column;
     justify-content: center;
     }
