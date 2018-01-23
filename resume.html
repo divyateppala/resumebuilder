@@ -19,7 +19,7 @@
     <!--/div-->
 </div>
 </div>
-<div class="col-4 " id="demo"> <img src="images/diva.jpg" alt="Divya" style="width:100%;border-radius: 5px 5px 5px 5px;padding:40px 0px 0px 0px;">
+<div class="col-4 " id="details"> <img src="images/diva.jpg" alt="Divya" style="width:100%;border-radius: 5px 5px 5px 5px;padding:40px 0px 0px 0px;">
                     <h3>Divya Teppala</h3>
                     <!--p style="color: grey; font-size: 14px;">Trainer </p>
                     <p>APSSDC</p-->
@@ -37,15 +37,17 @@
 
 
                     /* Qualifications */
-                    var ed={
+                    var qualification={
                     "degree" : ["M.Tech(C.S.E)","B-Tech(I.T)","Inter","SSC"],
                     "NameofColl" : ["GVP College Of Engineering","JNTUK College of Engeineering", "Sri Chaitanya Jr College","S.F.S School"],
                     "location" : ["Visakhapatnam,Andhra Pradesh","Vizianagram, Andhra Pradesh","Visakhapatnam, Andhra Pradesh","Visakhapatnam, Andhra Pradesh"]
                     }
 
-                    for (x in divya) {
-                        document.getElementById("demo").innerHTML += "<p style='color: grey; font-size: 14px;'>" +divya[x]+"<p>";
-                    }
+                        document.getElementById("details").innerHTML += "<p style='color: grey; font-size: 14px;'>" +divya.role+"<p>";
+                        document.getElementById("details").innerHTML += "<p style='color: grey; font-size: 14px;'>" +divya.organisation+"<p>";
+                        document.getElementById("details").innerHTML += "<p style='color: grey; font-size: 14px;'>" +divya.email+"<p>";
+                        document.getElementById("details").innerHTML += "<p style='color: grey; font-size: 14px;'>" +divya.location+"<p>";
+                        document.getElementById("details").innerHTML += "<p style='color: grey; font-size: 14px;'>" +divya.mobile+"<p>";
                     </script>
  </div>
     <div class="col-2">
@@ -79,12 +81,12 @@ table,th,td{
 
 </p>
 <h3 style="box-shadow:3px 3px 3px #ddd; margin-left: 0.1%;background-color: #ddd"">Qualifications </h3>
-<div id="ed">
+<div id="qual">
     <script>
         for(i in ed.degree){
-document.getElementById('ed').innerHTML+="<b>"+ed.degree[i]+"</b><br>";
-document.getElementById('ed').innerHTML+=ed.NameofColl[i]+"<br>";
-document.getElementById('ed').innerHTML+=ed.location[i]+"<br><br>";
+document.getElementById('qual').innerHTML+="<b>"+qualification.degree[i]+"</b><br>";
+document.getElementById('qual').innerHTML+=qualification.NameofColl[i]+"<br>";
+document.getElementById('qual').innerHTML+=qualification.location[i]+"<br><br>";
         }
     </script>
 </div>
@@ -128,18 +130,7 @@ document.getElementById('ed').innerHTML+=ed.location[i]+"<br><br>";
 
 </div>
 
-    			<div >
-
-
-                </div>
-
-
-    			<div >
-
-                </div>
-
-    		<div></div>
-    		<div></div>
+    			
     	</div>
     </div>
 </body>
