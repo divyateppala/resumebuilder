@@ -23,12 +23,13 @@
     for(i in data.basics.strengths ){
     creatingstrengths(data.basics.strengths[i]);
      }
+    for(i in data.basics.activities ){
+    creatingactivities(data.basics.activities[i]);
+    }
      for(i in data.basics.interests ){
     creatinginterests(data.basics.interests[i]);
     }
-     for(i in data.basics.activities ){
-    creatingactivities(data.basics.activities[i]);
-    }
+     
     
     creatingimg(data.basics.picture);
      
