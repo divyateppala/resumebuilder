@@ -1,4 +1,4 @@
-﻿{
+{
   "basics": {
     "name": "Divya Teppala",
     "label": "PWA Developer",
@@ -8,9 +8,13 @@
     "website": "https://divyateppala.com",
     "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
     "objective":"To be associated with a progressive organization that provides an opportunity to apply my knowledge and skills in order to keep abreast with latest trends and technologies.",
-    "strengths":["  • Good analytical skills and comprehensive problem solving ability.","    • Positive attitude and enthusiastic in teamwork."," • Flexibility to adopt new technologies and zeal to learn new technologies."],
-    "activities":[" •Participated in various awareness camps and debate competitions."," • Acted as an organizer for Fest that was held in my college.","•  Did 8 months internship in ASPIRE."],
+    "strengths":["  • Good analytical skills and comprehensive problem solving ability.","</br>• Positive attitude and enthusiastic in teamwork."," </br>• Flexibility to adopt new technologies and zeal to learn new technologies."],
+    "activities":[" •Participated in various awareness camps and debate competitions.","</br> • Acted as an organizer for Fest that was held in my college.","</br>•  Did 8 months internship in ASPIRE."],
     "interests":["•   Progressive Web Applications (PWA).","•   NetWorks."],
+    "details":["Name : P.InduPriya","Father’s Name : P.Badari Narayana","Date Of Birth : 26-02-1993.","Languages Known : English, Telugu","Marital Status : Un-Married "],
+    "achievements":["• Presented a paper in “SMART NOTE TAKER “ Paper Presentation Participated and got 3 rd Prize for ‘SACETVAIBHAV - 2015’ held at St. Ann’s College of Engineering & Technology, Chirala.","</br>• Presented a paper on “E-BALL TECHNOLOGY” in SACETVAIBHAV-2016 conducted by St.Ann’s College of Engineering & Technology, Chirala.","</br>• Presented a paper on “ARTIFICIAL EYE ” in SAPTHAVARNA-2016 conducted by Chirala Engineering College, Chirala.",
+      "</br>• Worked as Student Volunteer and Peer Educator in Red Cross Society event conducted at Bharathi Degree College, Chirala."],
+    "declaration":"I hereby declare that the information furnished above is true to the best of my knowledge.",
     "location": {
       "address": "ITI ROAD,OLD KURMANNAPALEM",
       "postalCode": "530046",
