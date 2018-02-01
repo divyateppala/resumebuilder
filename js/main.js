@@ -13,19 +13,27 @@
   }
 
   //usage:
-  loadJSON("data.json", function(text){
+  loadJSON("resources/data.json", function(text){
     let data = JSON.parse(text);
     console.log(data);
     /*creatingSummary(data.basics.summary);*/
     creatingSummary(data.basics.objective);
     /*strengths(data.strengths);*/
-
+    creatingdeclaration(data.basics.declaration);
     for(i in data.basics.strengths ){
     creatingstrengths(data.basics.strengths[i]);
      }
-    for(i in data.basics.activities ){
+     for(i in data.basics.activities ){
     creatingactivities(data.basics.activities[i]);
     }
+    for(i in data.basics.details ){
+    creatingdetails(data.basics.details[i]);
+    }
+    for(i in data.basics.achievements){
+    creatingachievements(data.basics.achievements[i]);
+    }
+     
+
      for(i in data.basics.interests ){
     creatinginterests(data.basics.interests[i]);
     }
@@ -86,6 +94,43 @@
     section.appendChild(summary_section);
     activitiesDiv.appendChild(section);
   }
+  var detailsDiv = document.getElementById("details");
+
+  function creatingdetails(details){
+    var section = document.createElement("section");
+    section.classList.add("section", "main-summary");
+    var summary_section = document.createElement("section")
+    var div = document.createElement("div");
+    div.innerHTML = details;
+    summary_section.appendChild(div);
+    section.appendChild(summary_section);
+    detailsDiv.appendChild(section);
+  }
+  var achievementsDiv = document.getElementById("achievements");
+
+  function creatingachievements(achievements){
+    var section = document.createElement("section");
+    section.classList.add("section", "main-summary");
+    var summary_section = document.createElement("section")
+    var div = document.createElement("div");
+    div.innerHTML = achievements;
+    summary_section.appendChild(div);
+    section.appendChild(summary_section);
+    achievementsDiv.appendChild(section);
+  }
+  var declarationDiv = document.getElementById("declaration");
+
+  function creatingdeclaration(declaration){
+    var section = document.createElement("section");
+    section.classList.add("section", "main-summary");
+    var summary_section = document.createElement("section")
+    var div = document.createElement("div");
+    div.innerHTML = declaration;
+    summary_section.appendChild(div);
+    section.appendChild(summary_section);
+    declarationDiv.appendChild(section);
+  }
+
   var interestsDiv = document.getElementById("interests");
 
   function creatinginterests(interests){
